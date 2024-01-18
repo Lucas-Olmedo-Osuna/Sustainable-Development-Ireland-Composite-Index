@@ -1,0 +1,27 @@
+Following OECD and JRC (2008): 
+1. Theoretical framework
+Sustainable Development: Deep Sustainability (Giddings et al., 2002), Substantive Economy (Polanyi, 1957), Social Economy-Circular Economy-Sustainability (Ziegler et al., 2023)
+Four dimensions: Environment, Economy, Social, Demography
+Geography: Regional (NUTS3) and Local
+
+2. Data selection
+8 variables (output) 
+Official sources: CSO Ireland, EPA
+
+3. Imputation of missing data
+Stochastic method
+
+4. Multivariate analysis
+Correlation matrix (Pearson) and Reliability (Cronbach's alpha).
+
+5. Normalisation
+Standardisation (z-scores) and Min-max normalisation
+
+6. Weighting and aggregation
+Equal Weighting, PCA/CA, DEA/BoD
+Linear aggreagation (2 and 3 aggregated levels); Geometric aggregation; Mean-min function 
+
+7. Uncertainty and sensitivity analysis
+8. Back to the data
+9. Links to other indicators
+10. Visualisation of the results
