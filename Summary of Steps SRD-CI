@@ -30,20 +30,75 @@ Step 3: Indicator set Version Zero (ISV_0): Compilation
 -	Ireland's Sustainable Development Goals (SDGs) data hub – Geohive (NUTS3, County, ED)   59 indicators (Geospatial)
 Output step 3: ISV_0 = 287 indicators
 
+Step 4: Indicator set Version One (ISV_1): a) Assign SDG and SDG targets; b) Relevance (local); c) Merging. 
+a.	Assign SDG and SDG targets
+Total excluded from step 4a: 40.
+b. Relevance (local): 
+Total excluded from step 4b: 11
+c. Merging:
+Total excluded from step 4c: 103.
+
+Output from Step 4: ISV_1: 132 
+
+Step 5: Indicator set Version Two (ISV_2): Data availability (local – SAP level) and data quality.
+Data at Small Area Population level related to the indicators selected from Step 4 was searched in the following sources: 
+-	Government of Ireland – Open data portal (https://data.gov.ie/) (https://gov.ie/)
+-	Central Statistics Office (CSO) Ireland (https://data.cso.ie/ )
+-	Environmental Protection Agency (EPA) (https://gis.epa.ie/GetData/Download )
+-	Tailte Éireann – Geohive (https://www.geohive.ie/ )
+-	Sustainable Energy Authority of Ireland (SEAI) (https://www.seai.ie/data-and-insights/) 
+-	Department of Agriculture, Food and the Marine (DAFM) (https://opendata.agriculture.gov.ie/ )
+-	Oirechtas (open data) https://www.oireachtas.ie/en/open-data/ 
+-	HRB National Drugs Library (https://www.drugsandalcohol.ie/ )
+-	Health Protection Surveillance Centre (HPSC) (https://www.hpsc.ie) 
+-	Health Service Executive (HSE) (https://data.ehealthireland.ie/) 
+-	Road Safety Authority (RSA) (https://www.rsa.ie/road-safety/research) 
+-	Health and Safety Authority's (HSA) (https://www.hsa.ie )
+-	Women for election https://datahub.womenforelection.ie 
+-	National Disability Authority (NDA) (https://nda.ie/publications-and-resources/nda-factsheets )
+-	Office of Public Works (OPW) (https://www.floodinfo.ie/ )
+-	Transparency International Ireland (https://transparency.ie/ )
+-	European Commission - Joint Research Centre (JRC) – Urban Data Platform Plus (https://urban.jrc.ec.europa.eu/ ) 
+-	European Commission - EU regional and urban development (https://ec.europa.eu/regional_policy/information-sources_en )
+
+Data availability was checked for every indicator . 84 indicators were discarded in this step due to the following reasons: 
+-	Data specifically for Ireland was not found (8)
+-	Data was only found at national level (18) 
+-	Data was found/available at some lower spatial level than national but not at local (SAP/ED) level (56), within these: for 8 indicators data was found/available at NUTS2 level; for 13 data was found/available at NUTS3 level; for 29 indicators data was found/available at County level; for 4 indicators data was found/available at HSE region level; for 1 indicator data was found/available at Garda Division level; for 3 indicators data was available at Air Zones level (A-D); for 2 indicators data was found/available for some Functional Urban Areas).
+-	Data was found at local level but not available or not Open Access (2).
+
+Output from Step 5: ISV_2: 44
+
+Step 6: Indicators set version 3 (ISV_3): Internal and external review/consultation and final Selection.
+A further selection procedure was applied to form ISV_3, this process consisted in a review of the indicators conducted with two senior researchers with expertise on sustainable (rural) development and indicators development (internal review as they are mentors of the fellowship) and a senior researcher with specific expertise on the SDGs and their development at national and subnational level (external review). The review was based on the conceptual soundness and data quality of the indicators of ISV_2 for the purpose of this study.  
+Total excluded from step 6: 9 indicators.
+
+Output from Step 6: ISV_3: 35 indicators 
+
+Structure of the indicators, sub-index and index.
+Based on Clark, Kavanagh and Bennet (2022, pp. 38-56), Measuring Progress: Economy, Society and Environment in Ireland. Sustainable Progress Index (commissioned by Social Justice Ireland) indicators were grouped by SDGs and later these were grouped into three Sub-Indexes: Economy (SDG8, SDG9), Society (SDG1, SDG3, SDG4, SDG5, SDG16, SDG17) and Environment (SDG2 , SDG6, SDG7, SDG11, SDG15). These three sub-indexes were subsequently grouped into a Sustainable Development Index. 
+
+
 3. Imputation of missing data
-Stochastic method
+Imputation method: stochastic static attribution based on proportional value of available data with a correction based on territorial proximity with next aggregated level available, usually Electoral Division level on a few exceptional cases Local Electoral Area. (UN, 2011). 
+Method: proportional values (average) calculated by ED, assuming residents at ED share similar features. Why not at Small Area level  a few SA high level of Not Stated (missing values), much reduced at ED level. Reasons for choosing this method: data already aggregated by geographic/administrative boundaries (min. Small Area). 
 
 4. Multivariate analysis
-Correlation matrix (Pearson) and Reliability (Cronbach's alpha).
+Correlation matrix (Pearson) - 2 indicators (SDG4_women_third_level_education and SDG17_no_internet) taken out for calculation of indexes due to high correlation (with SDG4_third_level_education and SDG17_broadband). 
+Reliability (Cronbach's alpha).
 
 5. Normalisation
-Standardisation (z-scores) and Min-max normalisation
+Min-max normalisation, also tested Standardisation (z-scores)
 
 6. Weighting and aggregation
-Equal Weighting, PCA/CA, DEA/BoD
-Linear aggreagation (2 and 3 aggregated levels); Geometric aggregation; Mean-min function 
+Weighted arithmetic mean following Clark et al. (2022).
 
 7. Uncertainty and sensitivity analysis
+Conducted sensitivity analysis for four models A-D, chaning structure (levels), weighting and aggregation methods. 
+
 8. Back to the data
 9. Links to other indicators
-10. Visualisation of the results
+
+10. results Visualisation 
+Maps using QGIS for each indicator, SDGs, Econo., Soc. Env. Indexes and Sustainable Development Index. 
+Maps created at national level (Republic of Ireland) and for Cork County and City.  
