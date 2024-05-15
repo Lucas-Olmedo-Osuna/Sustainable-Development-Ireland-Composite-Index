@@ -1,12 +1,34 @@
 Following OECD and JRC (2008): 
 1. Theoretical framework
 Sustainable Development: Deep Sustainability (Giddings et al., 2002), Substantive Economy (Polanyi, 1957), Social Economy-Circular Economy-Sustainability (Ziegler et al., 2023)
-Four dimensions: Environment, Economy, Social, Demography
-Geography: Regional (NUTS3) and Local
+Sustainable Development Goals (framework for indicators selection)
+Three dimensions: Environment, Economy, Social
+Geography: Local - Small Area Population (18,919 Republic of Ireland)
 
 2. Data selection
-8 variables (output) 
-Official sources: CSO Ireland, EPA
+Step 1: Preliminary sources identification
+Indicators from 4 sources: 
+-	Regions 2030 pilot Project. European Regional SDG Indicators (NUTS2) (Vega Rapun et al. 2022 – JRC)
+-	European Hanbook for SDG Voluntary Local Reviews (cities, towns) (Siragusa et al., 2022)
+-	Regional SDGs Indicators for Ireland 2017 (NUTS3)  ( https://www.cso.ie/en/releasesandpublications/ep/p-rsdgi/regionalsdgsireland2017/int/  
+-	Ireland's Sustainable Development Goals (SDGs) data hub - Geohive – (NUTS3, County, ED) https://irelandsdg.geohive.ie/pages/Goals)
+
+Step 2: Indicator set design
+SDG	
+SDG- target	
+Indicator
+Label	Source (original)
+Description/Comments	
+Data (local level/SAP) source for Ireland and Year	
+Unit of measurement	
+Sign (+/-)
+
+Step 3: Indicator set Version Zero (ISV_0): Compilation
+-	Regions 2030 pilot Project. European Regional SDG Indicators (NUTS2 level)  83 indicators 
+-	European Hanbook for SDG Voluntary Local Reviews (cities, towns)  72 indicators
+-	Regional SDGs Indicators for Ireland 2017 (NUTS3)   73 indicators
+-	Ireland's Sustainable Development Goals (SDGs) data hub – Geohive (NUTS3, County, ED)   59 indicators (Geospatial)
+Output step 3: ISV_0 = 287 indicators
 
 3. Imputation of missing data
 Stochastic method
